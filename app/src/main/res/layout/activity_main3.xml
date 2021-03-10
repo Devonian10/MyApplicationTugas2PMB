@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradl"
+    android:orientation="vertical"
+    tools:context=".MainActivity3">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Genshin2"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-black"
+            android:textSize="17sp"
+            />
+    </FrameLayout>
+    <Button
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Previous"
+        android:textSize="17sp"
+        android:textColor="@color/white"
+        android:onClick="toArticle"
+        android:fontFamily="sans-serif-black"/>
+
+    <Button
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Return"
+        android:onClick="toMainMenu"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:fontFamily="sans-serif-black"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="My Biodata"
+        android:onClick="toMyBiodata"
+        android:textSize="17sp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/white"
+        />
+</LinearLayout>
